@@ -1,0 +1,48 @@
+body {
+    background-color: #f0f0f0
+    font-family: Verdana; san-serif;
+}
+
+.login-div{
+    display: inline-block;
+    padding: 15px;
+    box-shadow: 0 0 2px;
+}
+
+.login-div input {
+    padding: 3 px;
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[]class*="control"] {
+    display:block;
+}
+
+input[class^="blue"] {
+    border: solid 1px blue;
+}
+input[class$="red"] {
+    border: solid 1px red;
+}
+
+.login-div button:hover {
+    box-shadow: 2px 2px 3px #c0c0c0;
+}
+   
+ .login-div infut:focus {
+       box-shadow: 2px 2px 3px #c0c0c0;
+       border: none;
+}
+
+ul li:last-child {
+    text-decoartion: underline;
+}
+
+ul li:first-child {
+    color: red;
+}
+
+ul li:nth-child(2) {
+    clolor: blue;
+}
